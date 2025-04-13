@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Men's Morris</title>
+    <link href="/src/css/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-black text-secondary">
+    <main class="container pt-12">
+
+        <div class="w-full">
+            <h1 class="text-xl text-center text-white font-bold">Three Men's Morris</h1>
+            <div id="game-board" class="grid grid-cols-3 grid-rows-3 gap-1 w-80 my-5 mx-auto">
+                <div data-index="0"
+                    class="cell w-[100px] h-[100px] flex items-center justify-center border-2 text-[24px] cursor-pointer relative hover:border-white">
+                    <!-- cell 1 -->
+                </div>
+                <div data-index="1"
+                    class="cell w-[100px] h-[100px] flex items-center justify-center border-2 text-[24px] cursor-pointer relative hover:border-white">
+                    <!-- cell 2 -->
+                </div>
+                <div data-index="2"
+                    class="cell w-[100px] h-[100px] flex items-center justify-center border-2 text-[24px] cursor-pointer relative hover:border-white">
+                    <!-- cell 3 -->
+                </div>
+                <div data-index="3"
+                    class="cell w-[100px] h-[100px] flex items-center justify-center border-2 text-[24px] cursor-pointer relative hover:border-white">
+                    <!-- cell 4 -->
+                </div>
+                <div data-index="4"
+                    class="cell w-[100px] h-[100px] flex items-center justify-center border-2 text-[24px] cursor-pointer relative hover:border-white">
+                    <!-- cell 5 -->
+                </div>
+                <div data-index="5"
+                    class="cell w-[100px] h-[100px] flex items-center justify-center border-2 text-[24px] cursor-pointer relative hover:border-white">
+                    <!-- cell 6 -->
+                </div>
+                <div data-index="6"
+                    class="cell w-[100px] h-[100px] flex items-center justify-center border-2 text-[24px] cursor-pointer relative hover:border-white">
+                    <!-- cell 7 -->
+                </div>
+                <div data-index="7"
+                    class="cell w-[100px] h-[100px] flex items-center justify-center border-2 text-[24px] cursor-pointer relative hover:border-white">
+                    <!-- cell 8 -->
+                </div>
+                <div data-index="8"
+                    class="cell w-[100px] h-[100px] flex items-center justify-center border-2 text-[24px] cursor-pointer relative hover:border-white">
+                    <!-- cell 9 -->
+                </div>
+            </div>
+            <p id="player-text" class="text-center text-white">White Pawn Player's Turn</p>
+            <p id="status-text" class="text-center">Choose your pawn!</p>
+            <div class="flex items-center justify-center">
+                <button id="reset-button" type="button"
+                    class="bg-secondary text-black font-semibold px-5 py-1 mt-3 rounded-lg cursor-pointer hover:bg-white">Reset</button>
+            </div>
+
+            <div class="pt-12 pb-5">
+                <p class="text-sm text-gray-400 italic text-center">Note: Win by forming a diagonal line or blocking all opponent
+                    moves.</p>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="/src/js/script.js"></script>
+</body>
+
+</html>

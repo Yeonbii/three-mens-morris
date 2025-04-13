@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #40b9d8;
+    --color-secondary: oklch(55.6% 0 0);
+}
+
+.container {
+    @apply max-w-[720px] mx-auto px-6;
+}
